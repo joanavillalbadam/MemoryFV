@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@android:color/holo_green_dark">
+
+    <TextView
+        android:text="Selecciona la dificultad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.08" />
+<RadioGroup
+    android:id="@+id/grupobtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:text="Facil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_weight="0.08" />
+
+    <RadioButton
+        android:text="Medio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"
+        android:checked="true"
+        android:layout_weight="0.08" />
+
+    <RadioButton
+        android:text="Dificil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3"
+        android:layout_weight="0.08" />
+</RadioGroup>
+    <Button
+        android:text="Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guardar"
+        android:layout_weight="0.08" />
+
+</LinearLayout>
